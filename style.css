@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&family=Space+Mono&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+ h1{
+    color: rgb(12, 11, 11);
+    margin-left: 100px;
+    margin-top: 25px; 
+    font-family:  'Source Code Pro', monospace;
+    text-decoration-line: underline; 
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.details p{
+    color:rgb(0, 0, 0) ;
+    font-family:  'Source Code Pro', monospace;
+    margin-left: 500px;
+    margin-top: 32px;  
+    animation: move 7s  infinite alternate-reverse;
+    width:40vw;
+}
+.img img{
+    height: 40vh;
+    width: 50vw;
+    margin: 20px;
+}
+.img img:hover{
+    margin-left: 50px;
+}
+@media screen and (max-width:950px) {
+    .h1{   
+        margin-left: 55px;
+    } 
+    .details p{
+        margin-left: 40px;
+    } 
+}
+
